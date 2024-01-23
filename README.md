@@ -32,7 +32,7 @@ You can also build the Docker file locally and run it with these commands:
 
 ```
 docker build --tag=jdd:v1-alpine --file=Dockerfile.alpine .
-docker run -i --name jdd -p 127.0.0.1:8080:80/tcp jdd:v1-alpine
+docker run -d --name jdd -p 7171:80/tcp jdd:v1-alpine
 ```
 
 
